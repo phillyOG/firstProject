@@ -1,0 +1,42 @@
+.grid-container{
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #18b2eb;
+    padding: 10px;
+}
+
+
+.banner{
+    background-color: rgba(5, 248, 240, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+}
+
+.header-photo{
+    text-align: left;
+    flex:1;
+    
+}
+
+.header-story{
+    text-align: center;
+    flex:1;
+}
+
+body{
+    margin:0;
+}
+#valley{
+    width:900px;
+}
+.disc-generator h3
+{
+    align-content: center;
+}
